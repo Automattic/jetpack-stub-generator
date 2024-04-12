@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a fake `...$func_get_args` parameter to functions/methods that call `func_get_args()`.
+
 ## 1.0.0 - 2024-03-28
 ### Added
 - Initial version.
