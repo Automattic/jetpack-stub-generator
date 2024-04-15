@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a fake `...$func_get_args` parameter to functions/methods that call `func_get_args()`.
+- Document function stub return type as "mixed" if it has a non-empty `return` but lacks any declaration or phpdoc, so Phan doesn't assume "void".
 
 ### Fixed
 - Properly support symfony/console 7.0.
