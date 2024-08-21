@@ -17,8 +17,8 @@
 		"symfony/console": "^5.3 || ^6.0 || ^7.0"
 	},
 	"require-dev": {
-		"yoast/phpunit-polyfills": "1.1.0",
-		"automattic/jetpack-changelogger": "^4.2.5"
+		"yoast/phpunit-polyfills": "^1.1.1",
+		"automattic/jetpack-changelogger": "^4.2.6-alpha"
 	},
 	"autoload": {
 		"psr-4": {
