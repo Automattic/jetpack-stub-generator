@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Enable test coverage.
 
 ### Changed
+- Updated dependencies.
 - Updated package dependencies.
 
 ## 1.0.0 - 2024-05-22
