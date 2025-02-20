@@ -11,6 +11,7 @@
 	],
 	"require": {
 		"php": ">=7.4",
+		"composer-runtime-api": "^2.2.0",
 		"composer/xdebug-handler": "^3.0.4",
 		"nikic/php-parser": "^5.3",
 		"phpstan/phpdoc-parser": "^2.0",
@@ -18,7 +19,7 @@
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^5.1.0"
+		"automattic/jetpack-changelogger": "^6.0.0-alpha"
 	},
 	"autoload": {
 		"psr-4": {
@@ -34,7 +35,9 @@
 		],
 		"test-php": [
 			"@composer phpunit"
-		]
+		],
+		"post-install-cmd": "rm -f vendor/bin/jetpack-stub-generator && ln -s ../../bin/local-jetpack-stub-generator vendor/bin/jetpack-stub-generator",
+		"post-update-cmd": "rm -f vendor/bin/jetpack-stub-generator && ln -s ../../bin/local-jetpack-stub-generator vendor/bin/jetpack-stub-generator"
 	},
 	"bin": [
 		"bin/jetpack-stub-generator"
@@ -44,7 +47,7 @@
 	"extra": {
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "1.0.x-dev"
+			"dev-trunk": "2.0.x-dev"
 		},
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-stub-generator/compare/v${old}...v${new}"
