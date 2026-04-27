@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Allow extracting enum stubs too.
 
+### Changed
+- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+
 ## [2.0.1] - 2026-01-12
 ### Changed
 - Internal updates.
