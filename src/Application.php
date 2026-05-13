@@ -28,7 +28,7 @@ use Throwable;
  */
 class Application extends SingleCommandApplication {
 
-	const VERSION = '2.1.0-alpha';
+	const VERSION = '2.1.0';
 
 	/**
 	 * Exit code to use.

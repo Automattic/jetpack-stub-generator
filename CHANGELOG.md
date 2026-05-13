@@ -5,15 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.1.0] - 2026-05-13
 ### Added
-- Allow extracting enum stubs too.
+- Allow extracting enum stubs. [#47233]
 
 ### Changed
-- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency. [#48225]
 
 ## [2.0.1] - 2026-01-12
 ### Changed
@@ -35,7 +32,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Initial version.
 
-[2.1.0-alpha]: https://github.com/Automattic/jetpack-stub-generator/compare/v2.0.1...v2.1.0-alpha
+[2.1.0]: https://github.com/Automattic/jetpack-stub-generator/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/Automattic/jetpack-stub-generator/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/Automattic/jetpack-stub-generator/compare/v1.0.1...v2.0.0
 [1.0.1]: https://github.com/Automattic/jetpack-stub-generator/compare/v1.0.0...v1.0.1
