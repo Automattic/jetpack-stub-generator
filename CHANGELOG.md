@@ -5,9 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.1-alpha] - unreleased
+## [2.2.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Add config option `strip-docs-keep-tags`, which works like `strip-docs` but preserves unrecognized tags.
+- strip-docs: Recognize additional tags: `@abstract`, `@extends`, `@inherits`, `@mixin`, `@no-named-arguments`, `@phan-closure-scope`, `@readonly`, `@seal-methods`, `@seal-properties`, `@unused-param`.
+
+### Fixed
+- Remove trailing whitespace when stripping tag descriptions.
 
 ## [2.1.0] - 2026-05-13
 ### Added
@@ -36,7 +43,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Initial version.
 
-[2.1.1-alpha]: https://github.com/Automattic/jetpack-stub-generator/compare/v2.1.0...v2.1.1-alpha
+[2.2.0-alpha]: https://github.com/Automattic/jetpack-stub-generator/compare/v2.1.0...v2.2.0-alpha
 [2.1.0]: https://github.com/Automattic/jetpack-stub-generator/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/Automattic/jetpack-stub-generator/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/Automattic/jetpack-stub-generator/compare/v1.0.1...v2.0.0
